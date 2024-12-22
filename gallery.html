@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Galeria zdjęć">
+    <title>Galeria</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+	<script src="scripts/script.js" defer></script>
+
+</head>
+<body class="no-background">
+
+<header>
+        <h1>Galeria</h1>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Strona Główna</a></li>
+                <li><a href="english.html">Angielski</a></li>
+                <li><a href="italian.html">Włoski</a></li>
+                <li><a href="swedish.html">Szwedzki</a></li>
+                <li><a href="german.html">Niemiecki</a></li>
+                <li><a href="ukrainian.html">Ukraiński</a></li>
+				<li><a href="contact.html">Kontakt</a></li>
+				<li><a href="gallery.html">Galeria</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="gallery_header">Galeria</h1>
+
+	<h3 class="gallery_header"> Kraje angielskojęzyczne </h3>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="images/bigben.jpg" alt="Big Ben, Londyn" onclick="openModal(this)">
+            <p class="caption">Big Ben, Londyn</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/stonehenge.jpg" alt="Stonehenge" onclick="openModal(this)">
+            <p class="caption">Stonehenge</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/sydney.jpg" alt="Opera w Sydney" onclick="openModal(this)">
+            <p class="caption">Opera w Sydney</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/uluru.jpg" alt="Uluru, święte miejsce Aborygenów" onclick="openModal(this)">
+            <p class="caption">Uluru, święte miejsce Aborygenów</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/newyork.jpg" alt="Empire State Building, Nowy Jork" onclick="openModal(this)">
+            <p class="caption">Empire State Building, Nowy Jork</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/hollywood.jpg" alt="Hollywood, Los Angeles" onclick="openModal(this)">
+            <p class="caption">Hollywood, Los Angeles</p>
+        </div>
+    </div>
+
+
+	<h3 class="gallery_header"> Włochy </h3>
+	 <div class="gallery">
+        <div class="gallery-item">
+            <img src="images/bazylika.jpg" alt="Bazylika św. Piotra w Rzymie" onclick="openModal(this)">
+            <p class="caption">Bazylika św. Piotra w Rzymie</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/koloseum.jpg" alt="Koloseum w Rzymie" onclick="openModal(this)">
+            <p class="caption">Koloseum w Rzymie</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/trevi.jpg" alt="Fontanna di Trevi w Rzymie" onclick="openModal(this)">
+            <p class="caption">Fontanna di Trevi w Rzymie</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/katedra.jpg" alt="Katedra w Mediolanie" onclick="openModal(this)">
+            <p class="caption">Katedra w Mediolanie</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/neapol.jpg" alt="Neapol" onclick="openModal(this)">
+            <p class="caption">Neapol</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/wenecja.jpg" alt="Wenecja" onclick="openModal(this)">
+            <p class="caption">Wenecja</p>
+        </div>
+    </div>
+	
+	<h3 class="gallery_header"> Szwecja </h3>
+     <div class="gallery">
+        <div class="gallery-item">
+            <img src="images/staremiasto.jpg" alt="Stare Miasto, Sztokholm" onclick="openModal(this)">
+            <p class="caption">Stare Miasto, Sztokholm</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/sztokholm.jpg" alt="Sztokholm" onclick="openModal(this)">
+            <p class="caption">Sztokholm</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/drottningholm.jpg" alt="Pałac Drottningholm" onclick="openModal(this)">
+            <p class="caption">Pałac Drottningholm</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/dom.jpg" alt="Typowy szwedzki dom" onclick="openModal(this)">
+            <p class="caption">Typowy szwedzki dom</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/laponia.jpg" alt="Renifer w Laponii" onclick="openModal(this)">
+            <p class="caption">Renifer w Laponii</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/smogen.jpg" alt="Smogen" onclick="openModal(this)">
+            <p class="caption">Smogen</p>
+        </div>
+    </div>
+	
+	<h3 class="gallery_header"> Kraje niemieckojęzyczne </h3>
+     <div class="gallery">
+        <div class="gallery-item">
+            <img src="images/berlin.jpg" alt="Alexanderplatz, Berlin" onclick="openModal(this)">
+            <p class="caption">Alexanderplatz, Berlin</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/kolonia.jpg" alt="Katedra w Kolonii" onclick="openModal(this)">
+            <p class="caption">Katedra w Kolonii</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/rapperswil.jpg" alt="Rapperswil, Szwajcaria" onclick="openModal(this)">
+            <p class="caption">Rapperswil, Szwajcaria</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/zurich.jpg" alt="Zurych, Szwajcaria" onclick="openModal(this)">
+            <p class="caption">Zurych, Szwajcaria</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/hallstatt.jpg" alt="Hallstatt, Szwajcaria" onclick="openModal(this)">
+            <p class="caption">Hallstatt, Austria</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/wieden.jpg" alt="Wiedeń" onclick="openModal(this)">
+            <p class="caption">Wiedeń</p>
+        </div>
+    </div>
+	
+	<h3 class="gallery_header"> Ukraina </h3>
+     <div class="gallery">
+        <div class="gallery-item">
+            <img src="images/lviv.jpg" alt="Opera Lwowska" onclick="openModal(this)">
+            <p class="caption">Opera Lwowska</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/kyiv.jpg" alt="Kijów" onclick="openModal(this)">
+            <p class="caption">Kijów</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/pomnik.jpg" alt="Pomnik Matka Ojczyzna, Kijów" onclick="openModal(this)">
+            <p class="caption">Pomnik Matka Ojczyzna, Kijów</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/odessa.jpg" alt="Odessa" onclick="openModal(this)">
+            <p class="caption">Odessa</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/zaporoze.jpg" alt="Zaporoże" onclick="openModal(this)">
+            <p class="caption">Zaporoże</p>
+        </div>
+		<div class="gallery-item">
+            <img src="images/zhytomyr.jpg" alt="Żytomierz" onclick="openModal(this)">
+            <p class="caption">Żytomierz</p>
+        </div>
+    </div>
+	
+    <!-- Modal do powiększania obrazka -->
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <p class="caption" id="modal-caption"></p>
+    </div>
+
+</body>
+</html>
